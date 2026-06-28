@@ -142,3 +142,5 @@
 [P9V2][72] D. Wen, K. Peng, J. Zheng, Y. Chen, Y. Shi, J. Wei, R. Liu, K. Yang y R. Stiefelhagen, "MICA: Multi-Agent Industrial Coordination Assistant", arXiv:2509.15237, 2026. Disponible en: [https://arxiv.org/abs/2509.15237](https://arxiv.org/abs/2509.15237)
 
 [S2H6][73] R. Saleh, K. P. Dinh, B. Villányi y T.-S. Hy, "Self-Evolving Multi-Agent Network for Industrial IoT Predictive Maintenance", arXiv:2602.16738, 2026. Disponible en: [https://arxiv.org/abs/2602.16738](https://arxiv.org/abs/2602.16738)
+
+[T6W1][74] S. Cao y Y. Yuan, "ReflecSched: Solving Dynamic Flexible Job-Shop Scheduling via LLM-Powered Hierarchical Reflection", arXiv:2508.01724, 2025. Disponible en: [https://arxiv.org/abs/2508.01724](https://arxiv.org/abs/2508.01724)
