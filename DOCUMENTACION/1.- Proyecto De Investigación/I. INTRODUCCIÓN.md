@@ -128,9 +128,9 @@ donde $E_r$ es el número de eventos, registros o transacciones trazables y $E_t
 
 La convergencia entre agentes de IA, agentes LLM y MCP fortalece el paradigma de la Industria 4.0 al integrar automatización, interoperabilidad y análisis inteligente en una misma arquitectura. Este enfoque permite avanzar hacia sistemas productivos más conectados, adaptativos y trazables, donde la gestión del dato deja de ser una actividad fragmentada y pasa a ser un proceso coordinado y automatizado [K4M7][49], [V8Q2][50]. Desde esta perspectiva, la implementación de arquitecturas multiagente con MCP no solo constituye una mejora técnica puntual, sino una línea de evolución coherente con las demandas actuales de digitalización industrial.
 
-![[Pasted image 20260627230227.png]]
+![[5.- Imágenes/Figura 1 - Ubicación de los modelos LLM dentro de la inteligencia artificial.png]]
 
-![[Pasted image 20260627230236.png]]
+![[5.- Imágenes/Figura 2 - Componentes funcionales de un agente LLM.png]]
 
 ## **1.4 Formulación del problema**
 

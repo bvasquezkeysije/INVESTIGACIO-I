@@ -38,6 +38,23 @@ Para Ordenar el Índice:
 - Si se agrega, elimina o renombra una sección del documento, el índice debe actualizarse de inmediato para conservar coherencia estructural.
 - El apartado `ANEXOS` puede figurar al final del índice como texto simple mientras no exista aún un archivo o encabezado definitivo para enlazarlo.
 
+Para Creación de Carpetas:
+- Toda carpeta nueva dentro de `DOCUMENTACION` debe respetar la **numeración jerárquica existente**.
+- No se deben crear carpetas con nombres sueltos como `imagenes`, `articulos`, `libros nuevos` o similares si corresponde integrarlas en la estructura numerada.
+- El formato obligatorio para carpetas principales es: **`N.- Nombre`**, por ejemplo: `1.- Proyecto De Investigación`, `2.- Artículos Científicos`, `3.- Artículos de revisión`, `4.- Libros`, `5.- Imágenes`.
+- Antes de crear una carpeta nueva, se debe revisar cuál es el siguiente número disponible para mantener la secuencia.
+- Si una carpeta fue creada sin numeración o con nombre fuera de la jerarquía, debe corregirse de inmediato renombrándola según la estructura oficial.
+- La numeración de carpetas no es opcional; forma parte del orden documental del proyecto y debe respetarse siempre.
+
+Para Nombres de Imágenes:
+- Toda imagen usada dentro del proyecto debe guardarse en la carpeta `5.- Imágenes`.
+- No se deben conservar nombres automáticos o genéricos como `Pasted image ...`, `captura1`, `imagen nueva`, `foto final` o similares.
+- El nombre del archivo de imagen debe coincidir con la forma en que será referida dentro del documento.
+- El formato obligatorio para nombrar imágenes es: **`Figura N - Descripción clara de la imagen`**.
+- La descripción debe ser breve, específica y coherente con el contenido mostrado, por ejemplo: `Figura 1 - Ubicación de los modelos LLM dentro de la inteligencia artificial`.
+- Si una imagen ya fue insertada en un archivo `.md` y luego se renombra, se debe actualizar de inmediato el enlace correspondiente en Obsidian.
+- Antes de dar por finalizada una edición con imágenes, se debe verificar que el nombre del archivo, el enlace en el `.md` y la referencia textual usada en el documento sean consistentes entre sí.
+
 Para Antecedentes (Trabajos Previos):
 - Cada antecedente se redacta como un solo párrafo corrido, sin subtítulos ni numeración visible (las preguntas guía no se marcan como "1, 2, 3...", quedan disueltas dentro del texto).
 - El título, los autores y el código de referencia no se listan arriba del párrafo; la identificación del antecedente queda integrada dentro de la redacción del mismo párrafo.
