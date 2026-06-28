@@ -1,4 +1,4 @@
-﻿### 1.1. Realidad Problemática
+### 1.1. Realidad Problemática
 
 En los últimos años, el sector industrial ha experimentado una transformación significativa impulsada por la digitalización y la adopción de tecnologías asociadas a la Industria 4.0. La manufactura inteligente requiere el análisis continuo de datos provenientes de productos, procesos de producción, sensores, actuadores y sistemas industriales para optimizar la producción y mejorar la eficiencia operativa [X7K2][1]. Asimismo, las plataformas basadas en el Internet Industrial de las Cosas (IIoT) han adquirido un papel fundamental al permitir la integración de máquinas, dispositivos inteligentes y aplicaciones empresariales dentro de entornos industriales cada vez más conectados [Q9P1][2]. Sin embargo, la heterogeneidad de tecnologías y fuentes de información continúa representando un desafío para la integración eficiente de los datos industriales [X7K2][1].
 
@@ -77,9 +77,9 @@ Russell y Norvig definen al agente como una entidad que percibe su entorno media
 
 La inteligencia artificial aplicada a la industria permite ampliar la automatización clásica al incorporar análisis de datos, inferencia y toma de decisiones sobre procesos productivos. En términos industriales, esto significa pasar de sistemas rígidos, orientados solo al control, a sistemas capaces de interpretar estados operativos, detectar anomalías, recomendar acciones y adaptarse a condiciones dinámicas [G6P4][61], [K4M7][49]. Por ello, la IA constituye uno de los pilares de la Industria 4.0, especialmente cuando se integra con infraestructuras de datos, sensores y plataformas de supervisión en tiempo real [V8Q2][50], [X5B9][46].
 
-**Figura 1.** *Tipos de implementación de la IA.*
-
 ![[5.- Imágenes/Figura 1 - Ubicación de los modelos LLM dentro de la inteligencia artificial.png]]
+
+**Figura 1.** *Tipos de implementación de la IA.*
 
 ### **1.3.4. Agentes de Inteligencia Artificial**
 
@@ -99,9 +99,9 @@ $$ \text{F1} = 2 \times \frac{\text{precisión} \times \text{Recall}}{\text{prec
 
 donde $TP$ son verdaderos positivos, $TN$ verdaderos negativos, $FP$ falsos positivos y $FN$ falsos negativos. Aunque estas métricas suelen aplicarse a tareas de clasificación, son útiles como base teórica para evaluar el comportamiento de agentes LLM cuando intervienen en selección de acciones, validación de respuestas o resolución de tareas específicas.
 
-**Figura 2.** *Arquitectura general de agentes IA.*
-
 ![[5.- Imágenes/Figura 2 - Componentes funcionales de un agente LLM.png]]
+
+**Figura 2.** *Arquitectura general de agentes IA.*
 
 ### **1.3.6. Model Context Protocol (MCP)**
 
@@ -145,15 +145,13 @@ La convergencia entre agentes de IA, agentes LLM y MCP fortalece el paradigma de
 
 ## **1.5 Justificación e importancia del estudio**
 
-La integración y automatización de datos en sistemas industriales suele verse limitada por la dispersión de información, la falta de interoperabilidad y la dependencia de procesos manuales que generan errores y reducen la eficiencia operativa. Frente a esta Problemática, la presente investigacin propone la implementación de agentes de inteligencia artificial basados en Model Context Protocol (MCP), con el fin de mejorar la gestión, coordinación y disponibilidad de datos industriales. Esta propuesta se alinea directamente con el problema identificado y los Objetivos del estudio, al buscar optimizar el flujo de información y fortalecer la toma de decisiones en entornos productivos.
+La integración y automatización de datos en sistemas industriales suele verse limitada por la dispersión de información, la falta de interoperabilidad y la dependencia de procesos manuales que generan errores y reducen la eficiencia operativa. Frente a esta Problemática, la presente investigación propone la implementación de agentes de inteligencia artificial basados en Model Context Protocol (MCP), con el fin de mejorar la gestión, coordinación y disponibilidad de datos industriales. Esta propuesta se alinea directamente con el problema identificado y los Objetivos del estudio, al buscar optimizar el flujo de información y fortalecer la toma de decisiones en entornos productivos.
 
-En el mbito científico y tecnológico, el uso de agentes MCP representa un aporte innovador, ya que introduce un mecanismo estandarizado y automatizado para la interpretación y articulación de datos provenientes de diversas fuentes industriales. Esto contribuye al avance de la automatización inteligente y se inserta dentro de los lineamientos de la Industria 4.0, donde la integración eficiente de información es un requisito fundamental.
+En el ámbito científico y tecnológico, el uso de agentes MCP representa un aporte innovador, ya que introduce un mecanismo estandarizado y automatizado para la interpretación y articulación de datos provenientes de diversas fuentes industriales. Esto contribuye al avance de la automatización inteligente y se inserta dentro de los lineamientos de la Industria 4.0, donde la integración eficiente de información es un requisito fundamental.
 
-La importancia del estudio radica en su impacto potencial sobre la eficiencia operativa, la Reducción de tiempos de procesamiento y la mejora de la trazabilidad de datos, factores que pueden traducirse en beneficios económicos y productivos para las organizaciones industriales. Asimismo, la investigacin es pertinente en el contexto nacional, donde an existen limitaciones tecnológicas para integrar sistemas heterogéneos de información. Su viabilidad se sustenta en la disponibilidad de datos industriales reales y en el uso de herramientas de desarrollo accesibles, lo que garantiza la factibilidad técnica del proyecto.
+La importancia del estudio radica en su impacto potencial sobre la eficiencia operativa, la Reducción de tiempos de procesamiento y la mejora de la trazabilidad de datos, factores que pueden traducirse en beneficios económicos y productivos para las organizaciones industriales. Asimismo, la investigación es pertinente en el contexto nacional, donde existen limitaciones tecnológicas para integrar sistemas heterogéneos de información. Su viabilidad se sustenta en la disponibilidad de datos industriales reales y en el uso de herramientas de desarrollo accesibles, lo que garantiza la factibilidad técnica del proyecto.
 
 #### **1.6 Hipótesis**
-
-**Hipótesis General**
 
 La implementación de una arquitectura multiagente basada en inteligencia artificial utilizando Model Context Protocol (MCP) mejora la orquestación e integración de datos industriales.
 
@@ -163,11 +161,11 @@ La implementación de una arquitectura multiagente basada en inteligencia artifi
 
 Implementar una arquitectura multiagente basada en inteligencia artificial utilizando Model Context Protocol (MCP) para la orquestación e integración de datos industriales.
 
-### **Objetivos Específicos**
+#### **Objetivos Específicos**
 
 - Realizar una revisión de la literatura cientfica sobre arquitecturas multiagente basadas en inteligencia artificial y Model Context Protocol (MCP) aplicadas a la integración y orquestación de datos industriales.
 
-- analizar el estado actual de la integración y gestión de datos en sistemas industriales para identificar limitaciones y necesidades operativas.
+- Analizar el estado actual de la integración y gestión de datos en sistemas industriales para identificar limitaciones y necesidades operativas.
 
 - Construir y preparar un dataset de datos industriales que permita el entrenamiento, integración, validación y evaluacin de los agentes MCP en un entorno controlado.
 
